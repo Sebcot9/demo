@@ -18,12 +18,5 @@ pipeline
 				bat 'mvn test'	
 			}
 		}
-		stage('Check') 
-		{
-			steps
-			{
-				bat 'dir /S target'
-			}
-		}
 	}
 }
